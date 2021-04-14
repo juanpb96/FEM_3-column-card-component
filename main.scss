@@ -5,15 +5,16 @@
 body {
     background: $primary-color;
     font-size: 15px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .container {
-    margin: 60px 15px;
+    margin: 60px 8%;
 }
 
 .card {
-    background: #FFF;
-    padding: 50px 30px;
+    padding: 50px 15%;
 
     &--sedan {
         background: $bg-color-sedan;
@@ -46,6 +47,7 @@ body {
         font-family: $font-text;
         line-height: 1.7;
         color: hsla(0, 0%, 100%, 0.75);
+        margin-bottom: 35px;
     }
 
     &__button {
@@ -72,7 +74,8 @@ body {
 }
 
 .attribution { 
-    font-size: 0.687rem; 
+    font-size: 0.687rem;
+    font-family: $font-text; 
     text-align: center; 
 
     a { 
@@ -84,31 +87,4 @@ body {
 /*
 - Mobile: 375px
 - Desktop: 1440px
-
-## Colors
-
-### Primary
-
-Bright orange: hsl(31, 77%, 52%)
-Dark cyan: hsl(184, 100%, 22%)
-Very dark cyan: hsl(179, 100%, 13%)
-
-### Neutral
-
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
-
-## Typography
-
-### Body Copy
-
-- Font size: 15px
-
-### Font
-
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
-- Weights: 400
-
-- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
-- Weights: 700
 */
