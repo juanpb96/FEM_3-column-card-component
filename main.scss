@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap);
+@import "sass/helpers/variables.scss";
+
+body {
+    background: $primary-color;
+    font-size: 15px;
+}
+
+.container {
+    margin: 60px 15px;
+}
+
+.card {
+    background: #FFF;
+    padding: 50px 30px;
+
+    &--sedan {
+        background: $bg-color-sedan;
+    }
+
+    &--suvs {
+        background: $bg-color-suvs;
+    }
+
+    &--luxury {
+        background: $bg-color-luxury;
+    }
+
+    &--first {
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    &--last {
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    &__title {
+        font-family: $font-title;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: $primary-color;
+    }
+
+    &__description {
+        font-family: $font-text;
+        line-height: 1.7;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    &__button {
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        font-family: $font-text;
+        background-color: $primary-color;
+        padding: 15px 30px;
+        border-radius: 100px;
+
+        &--sedan {
+            color: $bg-color-sedan;
+        }
+    
+        &--suvs {
+            color: $bg-color-suvs;
+        }
+    
+        &--luxury {
+            color: $bg-color-luxury;
+        }
+    }
+}
+
+.attribution { 
+    font-size: 0.687rem; 
+    text-align: center; 
+
+    a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
+    
+
+/*
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+*/
