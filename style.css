@@ -69,12 +69,14 @@ body {
   .container {
     width: 65%;
     max-width: 1440px; }
+    .container .card__description {
+      margin-bottom: 55px; }
     .container .card__button {
-      transition: all 0.2s linear; }
+      transition: all 0.3s linear; }
       .container .card__button:hover {
         border: 2px solid #f2f2f2;
         background-color: transparent;
         color: #f2f2f2;
-        padding: 12px 27px; } }
+        padding: 13px 28px; } }
 
 /*# sourceMappingURL=style.css.map */

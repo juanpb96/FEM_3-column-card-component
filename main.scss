@@ -113,14 +113,19 @@ body {
         max-width: 1440px;
 
         .card {
+            
+            &__description {
+                margin-bottom: 55px;
+            }
+
             &__button{
-                transition: all 0.2s linear;
+                transition: all 0.3s linear;
 
                 &:hover {
                     border: 2px solid $primary-color;
                     background-color: transparent;
                     color: $primary-color;
-                    padding: 12px 27px;
+                    padding: 13px 28px;
                 }
             }
         }
